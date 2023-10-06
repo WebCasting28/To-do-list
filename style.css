@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:azure;
+}
+
+.to-do {
+    width: 280px;
+    height: auto;
+    background-color: rgb(195, 238, 224);
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px rgb(195, 238, 224);
+    border-radius: 3px;
+}
+
+ h2{
+    width: 11%;
+    margin:0 auto;
+    margin-bottom: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+}
+
+.get {
+    width: 280px;
+    height: 45px;
+    
+}
+
+.get #type {
+    height: 41px;
+    border: none;
+    outline: none;
+    width: 203px;
+    border: 2px solid rgb(195, 238, 224);
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    
+}
+
+.get #btn {
+    position: absolute;
+    padding: 0.74rem 1.5rem;
+    right: 34rem;
+    z-index: 1;
+    background: white;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color:rgb(195, 238, 224) ;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    cursor: pointer;
+}
+
+.print {
+    display: flex;
+    width: 280px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.print #close p img {
+    width: 12px;
+    height: 12px;
+    padding: 10px 0;
+    padding-left: 18px;
+
+}
+
+.print #enter p{
+    margin: 0.6rem 0;
+    word-break: break-word;
+    width: 220px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+}
+
+
+.print #close p {
+    margin: 0.6rem 0;
+    height: 40px;
+    width: 40px;
+    background-color: azure;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
